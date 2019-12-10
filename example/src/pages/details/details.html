@@ -1,0 +1,73 @@
+<!--
+  Generated template for the DetailsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title  >details</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content text-center >
+
+    <div *ngIf="beacon1"   class="container1">
+        <img class="beaconImg" src="assets/imgs/beacon.png" >
+    <img class="itemImgWatch"src="assets/imgs/iphone.png" >
+    <div text-center>
+      <h1 class="textColor">Brand new Iphone X</h1>
+      <br>
+      <h1 class="price">RS 45000</h1>
+        <button expand="full" round ion-button color="secondary" >SHOP NOW</button>
+    </div>
+    </div>
+
+  <div *ngIf="beacon2"  class="container2">
+    <img class="beaconImg" src="assets/imgs/beacon.png" >
+<img class="itemImg"src="assets/imgs/shoe.png" >
+<div text-center>
+  <h1 class="desc">Mens Synthetic Leather shoes</h1>
+  <br>
+  <h1 class="price">RS 3000</h1>
+    <button expand="full" round ion-button color="secondary" >SHOP NOW</button>
+</div>
+</div>
+
+<div  *ngIf="beacon3" class="container3">
+    <img class="beaconImg" src="assets/imgs/beacon.png" >
+    <img class="itemImg"src="assets/imgs/shirt.png" >
+<div text-center>
+  <h1 class="desc">Mens Casual Shirt</h1>
+  <br>
+  <h1 class="price">RS 1000</h1>
+    <button expand="full" round ion-button color="secondary" >SHOP NOW</button>
+</div>
+</div>
+
+<div *ngIf="beacon4"  class="container4">
+    <img class="beaconImg" src="assets/imgs/beacon.png" >
+    <img class="itemImgWatch"src="assets/imgs/wrist.png" >
+<div text-center>
+  <h1 class="textColor">Branded watches</h1>
+  <br>
+  <h1 class="price">RS 5000</h1>
+    <button expand="full" round ion-button color="secondary" >SHOP NOW</button>
+</div>
+</div>
+
+
+
+
+<!-- <div *ngIf="beacon2" style="height:100%; background-color: #cac900;">
+    <h5>{{beaconData.minor}}</h5>
+    </div>
+
+    <div *ngIf="beacon3" style="height:100%; background-color: #f0a3ce;">
+        <h5>{{beaconData.minor}}</h5>
+        </div>
+
+        <div *ngIf="beacon4" style="height:100%; background-color: green;">
+            <h5>{{beaconData.minor}}</h5>
+            </div> -->
+</ion-content>
